@@ -17,7 +17,7 @@ with picamera.PiCamera() as camera:
 	
 	print filename
 
-session = ftplib.FTP('ftp.mygeektragedy.com','mygeek@beyourstar.gr','1q2w3e4rgeeky')
+session = ftplib.FTP('ftp.mygeektragedy.com','mygeek@beyourstar.gr','none')
 file = open(filename,'rb')                  # file to send
 file2 = open('/home/pi/aero/photos/latest.png', 'rb')
 session.storbinary('STOR '+filename.replace('/home/pi/aero/photos/','') , file)     # send the file
