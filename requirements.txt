@@ -10,4 +10,4 @@ picamera==1.13
 PyYAML==3.12
 requests==2.18.2
 six==1.10.0
-urllib3==1.22
+urllib3==1.26.5
